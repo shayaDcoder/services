@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Assignment</title>
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS for Rotation -->
+    <style>
+        /* Custom rotation animation */
+        .rotate-animation {
+            transition: transform 0.5s ease-in-out;
+        }
+        .rotate-animation:hover {
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div id="assignment" class="p-10 m-5 border border-gray-300 rounded-lg bg-white">
+        <div class="icon-container flex items-center justify-center p-4 m-4 rotate-animation">
+            <i class="fas fa-user text-6xl text-blue-600"></i>
+        </div>
+    </div>
+</body>
+</html>
